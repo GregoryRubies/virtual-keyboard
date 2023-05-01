@@ -1,3 +1,7 @@
+@import "../../node_modules/normalize-scss/fork-versions/default/_normalize.scss";
+
 @import "base/base";
 
 @import "abstract/constants";
+
+@import "components/components";
