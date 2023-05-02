@@ -1,1 +1,493 @@
-["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "Backspace", "Tab", "q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "[", "]", "\\", "Del", "Caps Lock", "a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'", "ENTER", "Shift", "z", "x", "c", "v", "b", "n", "m", ",", ".", "/", "Up", "Shift", "Ctrl", "Win", "Alt", "Space", "Alr", "Ctrl", "Left", "Down", "Right"]
+[
+  [
+    {
+      "en": {
+        "type": 1,
+        "main": "`",
+        "ext": "~"
+      },
+      "ru": {
+        "type": 2,
+        "letter": "ё"
+      }
+    },
+    {
+      "type": 1,
+      "main": "1",
+      "ext": "!"
+    },
+    {
+      "type": 1,
+      "main": "2",
+      "en": {
+        "ext": "@"
+      },
+      "ru": {
+        "ext": "\""
+      }
+    },
+    {
+      "type": 1,
+      "main": "3",
+      "en": {
+        "ext": "#"
+      },
+      "ru": {
+        "ext": "№"
+      }
+    },
+    {
+      "type": 1,
+      "main": "4",
+      "en": {
+        "ext": "$"
+      },
+      "ru": {
+        "ext": ";"
+      }
+    },
+    {
+      "type": 1,
+      "main": "5",
+      "ext": "%"
+    },
+    {
+      "type": 1,
+      "main": "6",
+      "en": {
+        "ext": "^"
+      },
+      "ru": {
+        "ext": ":"
+      }
+    },
+    {
+      "type": 1,
+      "main": "7",
+      "en": {
+        "ext": "&"
+      },
+      "ru": {
+        "ext": "?"
+      }
+    },
+    {
+      "type": 1,
+      "main": "8",
+      "ext": "*"
+    },
+    {
+      "type": 1,
+      "main": "9",
+      "ext": "("
+    },
+    {
+      "type": 1,
+      "main": "0",
+      "ext": ")"
+    },
+    {
+      "type": 1,
+      "main": "-",
+      "ext": "_"
+    },
+    {
+      "type": 1,
+      "main": "=",
+      "ext": "+"
+    },
+    {
+      "type": 3,
+      "fn": "Backspace"
+    }
+  ],
+  [
+    {
+      "type": 3,
+      "fn": "Tab"
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "q"
+      },
+      "ru": {
+        "letter": "й"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "w"
+      },
+      "ru": {
+        "letter": "ц"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "e"
+      },
+      "ru": {
+        "letter": "у"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "r"
+      },
+      "ru": {
+        "letter": "к"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "t"
+      },
+      "ru": {
+        "letter": "е"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "y"
+      },
+      "ru": {
+        "letter": "н"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "u"
+      },
+      "ru": {
+        "letter": "г"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "i"
+      },
+      "ru": {
+        "letter": "ш"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "o"
+      },
+      "ru": {
+        "letter": "щ"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "p"
+      },
+      "ru": {
+        "letter": "з"
+      }
+    },
+    {
+      "en": {
+        "type": 1,
+        "main": "[",
+        "ext": "{"
+      },
+      "ru": {
+        "type": 2,
+        "letter": "х"
+      }
+    },
+    {
+      "en": {
+        "type": 1,
+        "main": "]",
+        "ext": "}"
+      },
+      "ru": {
+        "type": 2,
+        "letter": "ъ"
+      }
+    },
+    {
+      "type": 1,
+      "main": "\\",
+      "en": {
+        "ext": "|"
+      },
+      "ru": {
+        "ext": "/"
+      }
+    }
+  ],
+  [
+    {
+      "type": 3,
+      "fn": "Caps Lock"
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "a"
+      },
+      "ru": {
+        "letter": "ф"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "s"
+      },
+      "ru": {
+        "letter": "ы"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "d"
+      },
+      "ru": {
+        "letter": "в"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "f"
+      },
+      "ru": {
+        "letter": "а"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "g"
+      },
+      "ru": {
+        "letter": "п"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "h"
+      },
+      "ru": {
+        "letter": "р"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "j"
+      },
+      "ru": {
+        "letter": "о"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "k"
+      },
+      "ru": {
+        "letter": "л"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "l"
+      },
+      "ru": {
+        "letter": "д"
+      }
+    },
+    {
+      "en": {
+        "type": 1,
+        "main": ";",
+        "ext": ":"
+      },
+      "ru": {
+        "type": 2,
+        "letter": "ж"
+      }
+    },
+    {
+      "en": {
+        "type": 1,
+        "main": "'",
+        "ext": "\""
+      },
+      "ru": {
+        "type": 2,
+        "letter": "э"
+      }
+    },
+    {
+      "type": 3,
+      "fn": "Enter"
+    }
+  ],
+  [
+    {
+      "type": 3,
+      "fn": "Shift"
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "z"
+      },
+      "ru": {
+        "letter": "ф"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "x"
+      },
+      "ru": {
+        "letter": "ы"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "c"
+      },
+      "ru": {
+        "letter": "в"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "v"
+      },
+      "ru": {
+        "letter": "а"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "b"
+      },
+      "ru": {
+        "letter": "п"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "n"
+      },
+      "ru": {
+        "letter": "р"
+      }
+    },
+    {
+      "type": 2,
+      "en": {
+        "letter": "m"
+      },
+      "ru": {
+        "letter": "о"
+      }
+    },
+    {
+      "en": {
+        "type": 1,
+        "main": ",",
+        "ext": "<"
+      },
+      "ru": {
+        "type": 2,
+        "letter": "ж"
+      }
+    },
+    {
+      "en": {
+        "type": 1,
+        "main": ".",
+        "ext": ">"
+      },
+      "ru": {
+        "type": 2,
+        "letter": "э"
+      }
+    },
+    {
+      "en": {
+        "type": 1,
+        "main": "/",
+        "ext": "?"
+      },
+      "ru": {
+        "type": 2,
+        "letter": "э"
+      }
+    },
+    {
+      "type": 4,
+      "sign": "up"
+    },
+    {
+      "type": 3,
+      "fn": "Shift"
+    }
+  ],
+  [
+    {
+      "type": 3,
+      "fn": "Ctrl"
+    },
+    {
+      "type": 3,
+      "fn": "Win"
+    },
+    {
+      "type": 3,
+      "fn": "Alt"
+    },
+    {
+      "type": 4,
+      "sign": "Space"
+    },
+    {
+      "type": 3,
+      "fn": "Alt"
+    },
+    {
+      "type": 3,
+      "fn": "Ctrl"
+    },
+    {
+      "type": 4,
+      "sign": "Left"
+    },
+    {
+      "type": 4,
+      "sign": "Down"
+    },
+    {
+      "type": 4,
+      "sign": "Right"
+    }
+  ]
+]

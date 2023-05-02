@@ -440,9 +440,14 @@ template {
 }
 
 .btn {
+  font-size: 1.1rem;
   display: block;
-  padding: 10px 10px;
-  box-shadow: 1px;
+  padding: 0.5rem 0.5rem;
+  box-shadow: 0.1rem;
+}
+
+.keyboard .keyboard__row {
+  display: flex;
 }
 
 /*# sourceMappingURL=main.css.map */
