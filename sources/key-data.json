@@ -445,7 +445,7 @@
     },
     {
       "type": 4,
-      "sign": "up"
+      "sign": "▲"
     },
     {
       "type": 3,
@@ -479,15 +479,15 @@
     },
     {
       "type": 4,
-      "sign": "Left"
+      "sign": "◄"
     },
     {
       "type": 4,
-      "sign": "Down"
+      "sign": "▼"
     },
     {
       "type": 4,
-      "sign": "Right"
+      "sign": "►"
     }
   ]
 ]
