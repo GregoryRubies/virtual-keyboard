@@ -1,10 +1,27 @@
+
 .keyboard {
-  width: 750px;
+  width: 85vw;
   display: flex;
   flex-direction: column;
-  gap: .3rem;
+  gap: .4rem;
   .keyboard__row {
-    display: flex;
-    gap: .3rem;
+    display: grid;
+    gap: .4rem;
+    height: 38px;
   }
+  .keyboard__row_0 {
+    grid-template-columns: calc($key-default-widht * .8) repeat(12, $test) 1fr;
+  }
+  .keyboard__row_1 {
+    grid-template-columns: calc($key-default-widht * 1.2) repeat(13, $test);
+  }
+  .keyboard__row_2 {
+    grid-template-columns: minmax(calc($key-default-widht * 1.3), 1fr) repeat(11, $test) calc($key-default-widht * 1.4);
+  }
+  .keyboard__row_3 {
+    grid-template-columns: minmax(calc($key-default-widht * 1.4), 1fr) repeat(12, $test);
+  }
+  .keyboard__row_4 {
+    grid-template-columns: repeat(3, $test) 1fr $test calc($key-default-widht * 1.1) repeat(3, $test);
+  } 
 }

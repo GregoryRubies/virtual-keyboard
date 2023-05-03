@@ -2,4 +2,17 @@
   background-color: aqua;
   font-size: 10px;
   box-sizing: content-box;
+  .wrapper {
+    height: 100vh;
+    gap: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (max-width: 450px) {
+    & {
+      font-size: 7px;
+    }
+  }
 }
