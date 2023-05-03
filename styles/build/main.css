@@ -446,8 +446,15 @@ template {
   box-shadow: 0.1rem;
 }
 
+.keyboard {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
 .keyboard .keyboard__row {
   display: flex;
+  gap: 0.3rem;
 }
 
 /*# sourceMappingURL=main.css.map */

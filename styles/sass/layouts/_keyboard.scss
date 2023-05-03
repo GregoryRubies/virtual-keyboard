@@ -1,5 +1,10 @@
 .keyboard {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
   .keyboard__row {
     display: flex;
+    gap: .3rem;
   }
 }
