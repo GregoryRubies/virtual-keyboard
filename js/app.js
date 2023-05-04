@@ -4,12 +4,11 @@ import transformKeyData from "./modules/transformKeyData.js"
 
 import getKeyValue from "./modules/getKeyValue.js"
 
-//event.preventDefault();
 
 const keysList = {};
 
 const virtualKeyboard = document.querySelector(".virtual-keyboard");
-virtualKeyboard.innerHTML = '<div class="wrapper"><div class="screen"><textarea name="screen" id="screen" class="screen__input" autofocus></textarea></div></div>'
+virtualKeyboard.innerHTML = '<div class="wrapper"><div class="screen"><textarea name="text-input" id="text-area" class="screen__input" autofocus></textarea></div></div>'
 
 
 request.onload = function() {
@@ -18,38 +17,49 @@ request.onload = function() {
   let keyboard = document.createElement("div");
   keyboard.className = "keyboard";
 
-  keys.forEach((v, i, a) => {
+  keys.forEach((v, i) => {
 
     let row = document.createElement("div");
-    row.id = `r_${i}`;
     row.className = `keyboard__row keyboard__row_${i}`;
 
-    v.forEach((v_, i_, a_) => {
-      let idx = i_ < 10 ? `${i}0${i_}` : `${i}${i_}`;
+    v.forEach((v_) => {
       let key = document.createElement("button");
       let data = transformKeyData(v_);
-      key.id = `k_${idx}`;
       key.className = `keyboard__btn btn ${ data.type == 3 ? "keyboard__btn_fn" : "" } keyboard__btn_${data.code}`;
       key.appendChild(getKeyValue(data));
-      keysList[idx] = key;
+      keysList[data.code] = key;
       row.appendChild(key);
-
+      key.addEventListener("click", (e) => {
+        let 
+          textArea = document.querySelector(".screen__input"),
+          cursor = textArea.selectionStart;
+        textArea.focus();
+        textArea.value = textArea.value.substr(0, cursor) 
+          + (data.main || data.letter || data.sign || '')
+          + textArea.value.substring(cursor);
+        textArea.selectionStart = cursor + 1;
+      })
     });
     keyboard.appendChild(row);
   })
   document.querySelector(".wrapper").appendChild(keyboard);
-
 }
 
-virtualKeyboard.addEventListener("click", (e) => {
-  document.querySelector(".screen__input").focus();
+virtualKeyboard.addEventListener("keyup", (e)=> {
+  e.preventDefault();
 })
+virtualKeyboard.addEventListener("keydown", (e)=> {
+  e.preventDefault();
+})
+
 
 virtualKeyboard.addEventListener("keyup", (e)=>{
   document.querySelector(`.keyboard__btn_${e.code}`).classList.remove("btn_act");
+
 });
 virtualKeyboard.addEventListener("keydown", (e)=>{
   document.querySelector(`.keyboard__btn_${e.code}`).classList.add("btn_act");
+  document.querySelector(`.keyboard__btn_${e.code}`).click();
 });
 
 virtualKeyboard.addEventListener("keyup", (e)=>{
