@@ -525,7 +525,7 @@
     {
       "code": "Space",
       "type": 4,
-      "sign": "Space"
+      "sign": " "
     },
     {
       "code": "AltRight",

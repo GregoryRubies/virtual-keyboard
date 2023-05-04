@@ -451,12 +451,12 @@ template {
 }
 .virtual-keyboard .wrapper > * {
   padding: 10px;
-  width: 100%;
+  width: 85vw;
   min-width: 380px;
-  max-width: 85vw;
+  max-width: 1000px;
   background: rgba(242, 240, 255, 0.6705882353);
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 525px) {
   .virtual-keyboard {
     font-size: 7px;
   }
