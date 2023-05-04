@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;600&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -437,14 +438,23 @@ template {
   background-color: aqua;
   font-size: 10px;
   box-sizing: content-box;
+  font-family: "Karla", sans-serif;
 }
 .virtual-keyboard .wrapper {
   height: 100vh;
+  padding: 10px;
   gap: 31px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.virtual-keyboard .wrapper > * {
+  padding: 10px;
+  width: 100%;
+  min-width: 380px;
+  max-width: 85vw;
+  background: rgba(242, 240, 255, 0.6705882353);
 }
 @media screen and (max-width: 450px) {
   .virtual-keyboard {
@@ -453,33 +463,47 @@ template {
 }
 
 .btn {
+  font-family: "Karla", sans-serif;
+  border: 2px solid rgb(228, 224, 224);
+  border-radius: 4px;
+  font-weight: 600;
   width: 100%;
-  font-size: 1.4em;
+  font-size: 1.5em;
   display: flex;
   gap: 2px;
-  box-shadow: 0px 1px 0px 1px lightblue;
-  padding: 2px;
+  box-shadow: 0px 1px 0px 1px greenyellow;
+  padding: 3px;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   box-sizing: border-box;
 }
+.btn .btn__text_ext {
+  font-size: 0.9em;
+  font-weight: 200;
+}
+.btn:active {
+  box-shadow: 0px 0px 0px 1px greenyellow;
+  border: 2px solid rgb(207, 210, 213);
+}
 
 .screen {
-  width: 85vw;
   height: 40%;
+}
+.screen .screen__input {
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
 }
 
 .keyboard {
-  width: 85vw;
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 10px;
 }
 .keyboard .keyboard__row {
   display: grid;
-  gap: 0.4rem;
-  height: 38px;
+  gap: 8px;
+  height: 40px;
 }
 .keyboard .keyboard__row_0 {
   grid-template-columns: 5.3333333333% repeat(12, minmax(min-content, 6.6666666667%)) 1fr;

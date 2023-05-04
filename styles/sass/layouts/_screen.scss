@@ -1,4 +1,7 @@
 .screen {
-  width: 85vw;
   height: 40%;
+  .screen__input{
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+  }
 }

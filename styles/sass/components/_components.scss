@@ -1,12 +1,24 @@
 .btn {
+  font-family: 'Karla', sans-serif;
+  border: 2px solid rgb(228, 224, 224);
+  border-radius: 4px;
+  font-weight: 600;
   width: 100%;
-  font-size: 1.4em;
+  font-size: 1.5em;
   display: flex;
   gap: 2px;
-  box-shadow: 0px 1px 0px 1px lightblue;
-  padding: 2px;
+  box-shadow: 0px 1px 0px 1px greenyellow;
+  padding: 3px;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   box-sizing: border-box;
+  .btn__text_ext {
+    font-size: 0.9em;
+    font-weight: 200;
+  }
+  &:active {
+    box-shadow: 0px 0px 0px 1px greenyellow;
+    border: 2px solid rgb(207, 210, 213);
+  }
 }

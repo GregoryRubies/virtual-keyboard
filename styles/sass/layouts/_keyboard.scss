@@ -1,13 +1,12 @@
 
 .keyboard {
-  width: 85vw;
   display: flex;
   flex-direction: column;
-  gap: .4rem;
+  gap: 10px;
   .keyboard__row {
     display: grid;
-    gap: .4rem;
-    height: 38px;
+    gap: 8px;
+    height: 40px;
   }
   .keyboard__row_0 {
     grid-template-columns: calc($key-default-widht * .8) repeat(12, $test) 1fr;

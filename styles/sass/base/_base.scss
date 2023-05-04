@@ -2,13 +2,22 @@
   background-color: aqua;
   font-size: 10px;
   box-sizing: content-box;
+  font-family: 'Karla', sans-serif;
   .wrapper {
     height: 100vh;
+    padding: 10px;
     gap: 31px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    &>* {
+      padding: 10px;
+      width: 100%;
+      min-width: 380px;
+      max-width: 85vw;
+      background: #f2f0ffab;
+    }
   }
   @media screen and (max-width: 450px) {
     & {
