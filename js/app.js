@@ -6,6 +6,9 @@ import getKeyValue from "./modules/getKeyValue.js"
 
 const keysList = {};
 
+const virtualKeyboard = document.querySelector(".virtual-keyboard");
+virtualKeyboard.innerHTML = '<div class="wrapper"><div class="screen"><textarea name="screen" id="screen" class="screen__input"></textarea></div></div>'
+
 request.onload = function() {
   let keys = request.response;
 

@@ -5,11 +5,13 @@ function getKeyValue (data) {
   if (data.type == 1) {
     let [main, ext] = [document.createElement('div'), document.createElement('div')];
     [main.innerText, ext.innerText] = [data.main, data.ext];
+    main.classList = "btn__text btn__text_main";
+    ext.classList = "btn__text btn__text_ext";
     content.appendChild(ext);
     content.appendChild(main);
   } else if (data.type == 2) {
     let letter = document.createElement('div');
-    letter.innerText = data.letter;
+    letter.innerText = data.letter.toUpperCase();
     content.appendChild(letter);
   } else if (data.type == 3) {
     let fn = document.createElement('div');
