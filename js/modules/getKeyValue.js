@@ -1,3 +1,8 @@
+/**
+ * 
+ * @param {Object} data 
+ * @returns HTMLElement
+ */
 function getKeyValue (data) {
 
   let content = document.createDocumentFragment();

@@ -1,6 +1,7 @@
 [
   [
     {
+      "code": "Backquote",
       "en": {
         "type": 1,
         "main": "`",
@@ -12,11 +13,13 @@
       }
     },
     {
+      "code": "Digit1",
       "type": 1,
       "main": "1",
       "ext": "!"
     },
     {
+      "code": "Digit2",
       "type": 1,
       "main": "2",
       "en": {
@@ -27,6 +30,7 @@
       }
     },
     {
+      "code": "Digit3",
       "type": 1,
       "main": "3",
       "en": {
@@ -37,6 +41,7 @@
       }
     },
     {
+      "code": "Digit4",
       "type": 1,
       "main": "4",
       "en": {
@@ -47,11 +52,13 @@
       }
     },
     {
+      "code": "Digit5",
       "type": 1,
       "main": "5",
       "ext": "%"
     },
     {
+      "code": "Digit6",
       "type": 1,
       "main": "6",
       "en": {
@@ -62,6 +69,7 @@
       }
     },
     {
+      "code": "Digit7",
       "type": 1,
       "main": "7",
       "en": {
@@ -72,41 +80,49 @@
       }
     },
     {
+      "code": "Digit8",
       "type": 1,
       "main": "8",
       "ext": "*"
     },
     {
+      "code": "Digit9",
       "type": 1,
       "main": "9",
       "ext": "("
     },
     {
+      "code": "Digit0",
       "type": 1,
       "main": "0",
       "ext": ")"
     },
     {
+      "code": "Minus",
       "type": 1,
       "main": "-",
       "ext": "_"
     },
     {
+      "code": "Equal",
       "type": 1,
       "main": "=",
       "ext": "+"
     },
     {
+      "code": "Backspace",
       "type": 3,
       "fn": "Backspace"
     }
   ],
   [
     {
+      "code": "Tab",
       "type": 3,
       "fn": "Tab"
     },
     {
+      "code": "KeyQ",
       "type": 2,
       "en": {
         "letter": "q"
@@ -116,6 +132,7 @@
       }
     },
     {
+      "code": "KeyW",
       "type": 2,
       "en": {
         "letter": "w"
@@ -125,6 +142,7 @@
       }
     },
     {
+      "code": "KeyE",
       "type": 2,
       "en": {
         "letter": "e"
@@ -134,6 +152,7 @@
       }
     },
     {
+      "code": "KeyR",
       "type": 2,
       "en": {
         "letter": "r"
@@ -143,6 +162,7 @@
       }
     },
     {
+      "code": "KeyT",
       "type": 2,
       "en": {
         "letter": "t"
@@ -152,6 +172,7 @@
       }
     },
     {
+      "code": "KeyY",
       "type": 2,
       "en": {
         "letter": "y"
@@ -161,6 +182,7 @@
       }
     },
     {
+      "code": "KeyU",
       "type": 2,
       "en": {
         "letter": "u"
@@ -170,6 +192,7 @@
       }
     },
     {
+      "code": "KeyI",
       "type": 2,
       "en": {
         "letter": "i"
@@ -179,6 +202,7 @@
       }
     },
     {
+      "code": "KeyO",
       "type": 2,
       "en": {
         "letter": "o"
@@ -188,6 +212,7 @@
       }
     },
     {
+      "code": "KeyP",
       "type": 2,
       "en": {
         "letter": "p"
@@ -197,6 +222,7 @@
       }
     },
     {
+      "code": "BracketLeft",
       "en": {
         "type": 1,
         "main": "[",
@@ -208,6 +234,7 @@
       }
     },
     {
+      "code": "BracketRight",
       "en": {
         "type": 1,
         "main": "]",
@@ -219,6 +246,7 @@
       }
     },
     {
+      "code": "Backslash",
       "type": 1,
       "main": "\\",
       "en": {
@@ -231,10 +259,12 @@
   ],
   [
     {
+      "code": "CapsLock",
       "type": 3,
       "fn": "Caps Lock"
     },
     {
+      "code": "KeyA",
       "type": 2,
       "en": {
         "letter": "a"
@@ -244,6 +274,7 @@
       }
     },
     {
+      "code": "KeyS",
       "type": 2,
       "en": {
         "letter": "s"
@@ -253,6 +284,7 @@
       }
     },
     {
+      "code": "KeyD",
       "type": 2,
       "en": {
         "letter": "d"
@@ -262,6 +294,7 @@
       }
     },
     {
+      "code": "KeyF",
       "type": 2,
       "en": {
         "letter": "f"
@@ -271,6 +304,7 @@
       }
     },
     {
+      "code": "KeyG",
       "type": 2,
       "en": {
         "letter": "g"
@@ -280,6 +314,7 @@
       }
     },
     {
+      "code": "KeyH",
       "type": 2,
       "en": {
         "letter": "h"
@@ -289,6 +324,7 @@
       }
     },
     {
+      "code": "KeyJ",
       "type": 2,
       "en": {
         "letter": "j"
@@ -298,6 +334,7 @@
       }
     },
     {
+      "code": "KeyK",
       "type": 2,
       "en": {
         "letter": "k"
@@ -307,6 +344,7 @@
       }
     },
     {
+      "code": "KeyL",
       "type": 2,
       "en": {
         "letter": "l"
@@ -316,6 +354,7 @@
       }
     },
     {
+      "code": "Semicolon",
       "en": {
         "type": 1,
         "main": ";",
@@ -327,6 +366,7 @@
       }
     },
     {
+      "code": "Quote",
       "en": {
         "type": 1,
         "main": "'",
@@ -338,16 +378,19 @@
       }
     },
     {
+      "code": "Enter",
       "type": 3,
       "fn": "Enter"
     }
   ],
   [
     {
+      "code": "ShiftLeft",
       "type": 3,
       "fn": "Shift"
     },
     {
+      "code": "KeyZ",
       "type": 2,
       "en": {
         "letter": "z"
@@ -357,6 +400,7 @@
       }
     },
     {
+      "code": "KeyX",
       "type": 2,
       "en": {
         "letter": "x"
@@ -366,6 +410,7 @@
       }
     },
     {
+      "code": "KeyC",
       "type": 2,
       "en": {
         "letter": "c"
@@ -375,6 +420,7 @@
       }
     },
     {
+      "code": "KeyV",
       "type": 2,
       "en": {
         "letter": "v"
@@ -384,6 +430,7 @@
       }
     },
     {
+      "code": "KeyB",
       "type": 2,
       "en": {
         "letter": "b"
@@ -393,6 +440,7 @@
       }
     },
     {
+      "code": "KeyN",
       "type": 2,
       "en": {
         "letter": "n"
@@ -402,6 +450,7 @@
       }
     },
     {
+      "code": "KeyM",
       "type": 2,
       "en": {
         "letter": "m"
@@ -411,6 +460,7 @@
       }
     },
     {
+      "code": "Comma",
       "en": {
         "type": 1,
         "main": ",",
@@ -422,6 +472,7 @@
       }
     },
     {
+      "code": "Period",
       "en": {
         "type": 1,
         "main": ".",
@@ -433,6 +484,7 @@
       }
     },
     {
+      "code": "Slash",
       "en": {
         "type": 1,
         "main": "/",
@@ -444,48 +496,59 @@
       }
     },
     {
+      "code": "ArrowUp",
       "type": 4,
       "sign": "▲"
     },
     {
+      "code": "ShiftRight",
       "type": 3,
       "fn": "Shift"
     }
   ],
   [
     {
+      "code": "ControlLeft",
       "type": 3,
       "fn": "Ctrl"
     },
     {
+      "code": "",
       "type": 3,
       "fn": "Win"
     },
     {
+      "code": "AltLeft",
       "type": 3,
       "fn": "Alt"
     },
     {
+      "code": "Space",
       "type": 4,
       "sign": "Space"
     },
     {
+      "code": "AltRight",
       "type": 3,
       "fn": "Alt"
     },
     {
+      "code": "ControlRight",
       "type": 3,
       "fn": "Ctrl"
     },
     {
+      "code": "ArrowLeft",
       "type": 4,
       "sign": "◄"
     },
     {
+      "code": "ArrowDown",
       "type": 4,
       "sign": "▼"
     },
     {
+      "code": "ArrowRight",
       "type": 4,
       "sign": "►"
     }

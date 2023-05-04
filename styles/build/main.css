@@ -6,7 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400;600&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -482,7 +482,8 @@ template {
   font-size: 0.9em;
   font-weight: 200;
 }
-.btn:active {
+.btn_act {
+  background-color: rgb(215, 255, 196);
   box-shadow: 0px 0px 0px 1px greenyellow;
   border: 2px solid rgb(207, 210, 213);
 }
@@ -493,6 +494,12 @@ template {
 .screen .screen__input {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
+  font-size: 2em;
+  font-weight: 400;
+  outline: none;
+}
+.screen .screen__input:active, .screen .screen__input:focus {
+  outline: none;
 }
 
 .keyboard {

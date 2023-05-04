@@ -1,3 +1,9 @@
+/**
+ * 
+ * @param {object} data 
+ * @param {string} lng 
+ * @returns object
+ */
 function transformKeyData (data, lng = "en"){
   let newData = {};
   for(let key in data[lng]){

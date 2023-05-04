@@ -1,7 +1,13 @@
 .screen {
   height: 40%;
-  .screen__input{
+  .screen__input {
     width: calc(100% - 10px);
     height: calc(100% - 10px);
+    font-size: 2em;
+    font-weight: 400;
+    outline: none;
+    &:active, &:focus {
+      outline: none;
+    }
   }
 }
