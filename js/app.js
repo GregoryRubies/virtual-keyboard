@@ -1,10 +1,10 @@
 import request from "./modules/getKeys.js";
 
-import transformKeyData from "./modules/transformKeyData.js"
+import transformKeyData from "./modules/transformKeyData.js";
 
-import getKeyValue from "./modules/getKeyValue.js"
+import getKeyValue from "./modules/getKeyValue.js";
 
-import insertingText from "./modules/insertingText.js"
+import {insertingText, backspace, enter, tab} from "./modules/insertingText.js";
 
 
 const keysList = {};
@@ -32,14 +32,41 @@ function requestAndRender(){
         keysList[data.code] = key;
         row.appendChild(key);
         key.addEventListener("click", (e) => {
-          insertingText(data, e.shiftKey);
+          if([1,2,4].includes(data.type)){
+            insertingText(data, e.shiftKey);
+          } else if(data.type == 3){
+            if(data.code == "Backspace"){
+              backspace(e.shiftKey);
+            }
+            if(data.code == "Enter"){
+              enter();
+            }
+            if(data.code == "Tab"){
+              tab();
+            }
+          }
         })
         virtualKeyboard.addEventListener("keyup", (e)=>{
           document.querySelector(`.keyboard__btn_${e.code}`).classList.remove("btn_act");
         });
         virtualKeyboard.addEventListener("keydown", (e)=>{
           document.querySelector(`.keyboard__btn_${e.code}`).classList.add("btn_act");
-          if(e.code == data.code){ insertingText(data, e.shiftKey)};
+          
+          if(e.code == data.code){ 
+            if([1,2,4].includes(data.type)){
+              insertingText(data, e.shiftKey);
+            } else if(data.type == 3){
+              if(data.code == "Backspace"){
+                backspace(e.shiftKey);
+              }
+              if(data.code == "Enter"){
+                enter();
+              }
+              if(data.code == "Tab"){
+                tab();
+              }
+            }
+          };
         });
 
       });
