@@ -16,7 +16,8 @@ function getKeyValue (data) {
     content.appendChild(main);
   } else if (data.type == 2) {
     let letter = document.createElement('div');
-    letter.innerText = data.letter.toUpperCase();
+    letter.classList = "btn__text btn__text_ltr"
+    letter.innerText = data.letter;
     content.appendChild(letter);
   } else if (data.type == 3) {
     let fn = document.createElement('div');
